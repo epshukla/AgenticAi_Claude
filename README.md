@@ -2,6 +2,15 @@
 
 A full-stack application featuring an AI agent powered by Claude, with a Flask backend and React frontend.
 
+
+
+<img width="1337" height="785" alt="Screenshot from 2026-02-01 23-07-54" src="https://github.com/user-attachments/assets/dc18985e-30e5-456d-9f81-2ee8edceebeb" />
+
+
+<img width="1385" height="923" alt="Screenshot from 2026-02-01 23-08-16" src="https://github.com/user-attachments/assets/422c43d6-0e39-4c79-ac67-5dfc57af72c3" />
+
+
+
 ## Documentation
 
 - [Ticket Resolution Flow](TICKET_FLOW_DIAGRAM.md) - Complete flow diagram of ticket creation, AI analysis, and change application
