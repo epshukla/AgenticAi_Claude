@@ -2,6 +2,11 @@
 
 A full-stack application featuring an AI agent powered by Claude, with a Flask backend and React frontend.
 
+## Documentation
+
+- [Ticket Resolution Flow](TICKET_FLOW_DIAGRAM.md) - Complete flow diagram of ticket creation, AI analysis, and change application
+- [AI Context Efficiency](AI_CONTEXT_EFFICIENCY.md) - Techniques used to minimize token usage and optimize Claude API requests
+
 ## Prerequisites
 
 - Python 3.12+
