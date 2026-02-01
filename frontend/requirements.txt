@@ -1,0 +1,19 @@
+# Node.js Requirements for React Frontend
+# =========================================
+#
+# This is a React/Node.js project. Dependencies are managed via package.json.
+#
+# Prerequisites:
+#   - Node.js >= 16.x
+#   - npm >= 8.x
+#
+# Install dependencies:
+#   npm install
+#
+# Run development server:
+#   npm start
+#
+# Build for production:
+#   npm run build
+#
+# The app proxies API requests to http://localhost:5000 (Flask backend)

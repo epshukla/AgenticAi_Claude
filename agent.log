@@ -1,0 +1,528 @@
+2026-02-01 05:03:13,039 - __main__ - INFO - UIAgent initialized
+2026-02-01 05:03:13,041 - __main__ - INFO - Starting Claude Chatbot UI Agent
+2026-02-01 05:03:13,041 - __main__ - INFO - Target directory: /home/theperson/Vajra/MyProjects/CyberCypher26/CyberCypher26/demo2
+2026-02-01 05:03:13,041 - __main__ - INFO - Allowed extensions: {'.txt', '.json', '.yml', '.yaml', '.py', '.config', '.md'}
+2026-02-01 05:03:13,063 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.105:5000
+2026-02-01 05:03:13,063 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-01 05:03:13,089 - werkzeug - INFO -  * Restarting with stat
+2026-02-01 05:03:13,460 - __main__ - INFO - UIAgent initialized
+2026-02-01 05:03:13,462 - __main__ - INFO - Starting Claude Chatbot UI Agent
+2026-02-01 05:03:13,462 - __main__ - INFO - Target directory: /home/theperson/Vajra/MyProjects/CyberCypher26/CyberCypher26/demo2
+2026-02-01 05:03:13,462 - __main__ - INFO - Allowed extensions: {'.json', '.txt', '.config', '.yml', '.md', '.yaml', '.py'}
+2026-02-01 05:03:13,475 - werkzeug - WARNING -  * Debugger is active!
+2026-02-01 05:03:13,485 - werkzeug - INFO -  * Debugger PIN: 473-630-516
+2026-02-01 05:03:35,948 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:03:35] "GET / HTTP/1.1" 200 -
+2026-02-01 05:03:36,113 - __main__ - INFO - Listed 1 files in .
+2026-02-01 05:03:36,113 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:03:36] "GET /api/files?directory=. HTTP/1.1" 200 -
+2026-02-01 05:03:36,191 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:03:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-01 05:03:41,800 - __main__ - INFO - File read successfully: README.md
+2026-02-01 05:03:41,801 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:03:41] "POST /api/file/read HTTP/1.1" 200 -
+2026-02-01 05:04:22,752 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-01 05:04:22,788 - __main__ - INFO - Chat response generated
+2026-02-01 05:04:22,788 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:04:22] "POST /api/chat HTTP/1.1" 200 -
+2026-02-01 05:05:28,445 - __main__ - INFO - File read successfully: README.md
+2026-02-01 05:05:28,445 - __main__ - INFO - Sending file to Claude with instruction: Add a breif discription of paris trip to README.md...
+2026-02-01 05:05:33,195 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-01 05:05:33,197 - __main__ - INFO - Chat response generated
+2026-02-01 05:05:33,197 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:05:33] "POST /api/chat HTTP/1.1" 200 -
+2026-02-01 05:05:45,605 - __main__ - INFO - File read successfully: README.md
+2026-02-01 05:05:45,606 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:05:45] "POST /api/file/read HTTP/1.1" 200 -
+2026-02-01 05:06:20,767 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:06:20] "GET / HTTP/1.1" 200 -
+2026-02-01 05:06:20,922 - __main__ - INFO - Listed 1 files in .
+2026-02-01 05:06:20,923 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:06:20] "GET /api/files?directory=. HTTP/1.1" 200 -
+2026-02-01 05:06:24,526 - __main__ - INFO - File read successfully: README.md
+2026-02-01 05:06:24,528 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:06:24] "POST /api/file/read HTTP/1.1" 200 -
+2026-02-01 05:06:27,092 - __main__ - INFO - File read successfully: README.md
+2026-02-01 05:06:27,092 - __main__ - INFO - Sending file to Claude with instruction: Add a breif discription of paris trip to README.md...
+2026-02-01 05:07:10,429 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-01 05:07:10,433 - __main__ - INFO - File modified and saved: README.md
+2026-02-01 05:07:10,434 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:07:10] "POST /api/file/modify HTTP/1.1" 200 -
+2026-02-01 05:07:43,278 - __main__ - INFO - File read successfully: README.md
+2026-02-01 05:07:43,279 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:07:43] "POST /api/file/read HTTP/1.1" 200 -
+2026-02-01 05:07:57,634 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-01 05:07:57,635 - __main__ - INFO - Chat response generated
+2026-02-01 05:07:57,636 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:07:57] "POST /api/chat HTTP/1.1" 200 -
+2026-02-01 05:08:06,606 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-01 05:08:06,609 - __main__ - INFO - File modified and saved: README.md
+2026-02-01 05:08:06,610 - werkzeug - INFO - 127.0.0.1 - - [01/Feb/2026 05:08:06] "POST /api/file/modify HTTP/1.1" 200 -
+2026-01-31 20:42:10,643 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:45:42,239 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:45:42,239 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:45:42,239 - backend.app - INFO - Allowed extensions: {'.txt', '.yml', '.css', '.py', '.html', '.json', '.tsx', '.yaml', '.config', '.jsx', '.js', '.md', '.ts'}
+2026-01-31 20:45:42,255 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:46:06,054 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:46:06,054 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:46:06,054 - backend.app - INFO - Allowed extensions: {'.config', '.css', '.json', '.tsx', '.yaml', '.jsx', '.txt', '.js', '.py', '.html', '.ts', '.md', '.yml'}
+2026-01-31 20:46:06,066 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:46:06,107 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://10.0.0.30:5001
+2026-01-31 20:46:06,107 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-31 20:46:06,108 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:46:06,316 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:46:06,316 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:46:06,316 - backend.app - INFO - Allowed extensions: {'.js', '.html', '.json', '.ts', '.py', '.yaml', '.md', '.yml', '.css', '.txt', '.config', '.jsx', '.tsx'}
+2026-01-31 20:46:06,326 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:46:06,353 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:46:06,359 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:46:08,837 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 20:46:08] "GET /api/status HTTP/1.1" 200 -
+2026-01-31 20:48:08,712 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 20:48:08] "GET /api/files?directory=. HTTP/1.1" 200 -
+2026-01-31 20:48:08,712 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 20:48:08] "GET /api/status HTTP/1.1" 200 -
+2026-01-31 20:48:08,715 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 20:48:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-31 20:48:08,722 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 20:48:08] "GET /api/status HTTP/1.1" 200 -
+2026-01-31 20:48:08,723 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 20:48:08] "GET /api/files?directory=. HTTP/1.1" 200 -
+2026-01-31 20:52:22,790 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 20:52:22,832 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:52:23,141 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:52:23,141 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:52:23,141 - backend.app - INFO - Allowed extensions: {'.md', '.yaml', '.ts', '.txt', '.py', '.config', '.yml', '.html', '.jsx', '.tsx', '.css', '.js', '.json'}
+2026-01-31 20:52:23,152 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:52:23,195 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:52:23,202 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:52:31,405 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 20:52:31,449 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:52:31,745 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:52:31,745 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:52:31,745 - backend.app - INFO - Allowed extensions: {'.config', '.py', '.jsx', '.html', '.yml', '.txt', '.ts', '.yaml', '.css', '.tsx', '.md', '.js', '.json'}
+2026-01-31 20:52:31,756 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:52:31,795 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:52:31,801 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:52:38,999 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/agent.py', reloading
+2026-01-31 20:52:39,042 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:52:39,259 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:52:39,259 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:52:39,259 - backend.app - INFO - Allowed extensions: {'.md', '.jsx', '.txt', '.js', '.ts', '.yml', '.html', '.py', '.json', '.config', '.tsx', '.css', '.yaml'}
+2026-01-31 20:52:39,270 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:52:39,307 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:52:39,312 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:54:02,662 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes_generator.py', reloading
+2026-01-31 20:54:02,704 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:54:02,926 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:54:02,926 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:54:02,926 - backend.app - INFO - Allowed extensions: {'.yml', '.js', '.html', '.config', '.ts', '.css', '.json', '.txt', '.md', '.py', '.jsx', '.tsx', '.yaml'}
+2026-01-31 20:54:02,937 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:54:02,974 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:54:02,980 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:54:13,237 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/agent.py', reloading
+2026-01-31 20:54:13,278 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:54:13,504 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:54:13,504 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:54:13,504 - backend.app - INFO - Allowed extensions: {'.css', '.ts', '.txt', '.tsx', '.config', '.html', '.yml', '.json', '.md', '.jsx', '.js', '.py', '.yaml'}
+2026-01-31 20:54:13,514 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:54:13,555 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:54:13,560 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:54:23,818 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/agent.py', reloading
+2026-01-31 20:54:23,859 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:54:24,083 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:54:24,083 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:54:24,083 - backend.app - INFO - Allowed extensions: {'.ts', '.json', '.yml', '.html', '.css', '.tsx', '.md', '.jsx', '.yaml', '.txt', '.js', '.config', '.py'}
+2026-01-31 20:54:24,094 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:54:24,132 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:54:24,138 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:54:29,287 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 20:54:29,329 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:54:29,539 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:54:29,539 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:54:29,539 - backend.app - INFO - Allowed extensions: {'.json', '.config', '.txt', '.ts', '.tsx', '.js', '.py', '.yml', '.html', '.jsx', '.css', '.yaml', '.md'}
+2026-01-31 20:54:29,549 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:54:29,579 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:54:29,586 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 20:54:37,787 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/agent.py', reloading
+2026-01-31 20:54:37,829 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 20:54:38,044 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 20:54:38,044 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 20:54:38,044 - backend.app - INFO - Allowed extensions: {'.css', '.config', '.yml', '.ts', '.html', '.jsx', '.txt', '.md', '.yaml', '.js', '.py', '.tsx', '.json'}
+2026-01-31 20:54:38,054 - backend.agent - INFO - UIAgent initialized
+2026-01-31 20:54:38,085 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 20:54:38,091 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:09:39,374 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:09:39,374 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:09:39,374 - backend.app - INFO - Allowed extensions: {'.js', '.py', '.html', '.ts', '.css', '.json', '.yaml', '.jsx', '.txt', '.md', '.tsx', '.config', '.yml'}
+2026-01-31 21:09:39,387 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:10:20,691 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/app.py', reloading
+2026-01-31 21:10:20,734 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:10:21,049 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:10:21,049 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:10:21,049 - backend.app - INFO - Allowed extensions: {'.md', '.tsx', '.json', '.html', '.config', '.js', '.ts', '.css', '.yml', '.jsx', '.txt', '.yaml', '.py'}
+2026-01-31 21:10:21,060 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:10:21,109 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:10:21,118 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:10:30,331 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes_generator.py', reloading
+2026-01-31 21:10:30,378 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:10:30,673 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:10:30,673 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:10:30,673 - backend.app - INFO - Allowed extensions: {'.jsx', '.html', '.yml', '.tsx', '.txt', '.config', '.js', '.md', '.py', '.ts', '.yaml', '.css', '.json'}
+2026-01-31 21:10:30,685 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:10:30,722 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:10:30,728 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:10:51,194 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:10:51,230 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:10:51,527 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:10:51,527 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:10:51,527 - backend.app - INFO - Allowed extensions: {'.jsx', '.txt', '.html', '.yaml', '.yml', '.css', '.config', '.md', '.js', '.tsx', '.json', '.py', '.ts'}
+2026-01-31 21:10:51,538 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:10:51,572 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:10:51,578 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:11:00,825 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:11:00,868 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:11:01,167 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:11:01,167 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:11:01,167 - backend.app - INFO - Allowed extensions: {'.json', '.yaml', '.py', '.config', '.jsx', '.yml', '.txt', '.md', '.css', '.html', '.tsx', '.js', '.ts'}
+2026-01-31 21:11:01,178 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:11:01,212 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:11:01,219 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:11:09,434 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:11:09,476 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:11:09,759 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:11:09,759 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:11:09,759 - backend.app - INFO - Allowed extensions: {'.jsx', '.css', '.yml', '.html', '.yaml', '.txt', '.js', '.py', '.json', '.md', '.tsx', '.config', '.ts'}
+2026-01-31 21:11:09,770 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:11:09,805 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:11:09,811 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:12:25,790 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:12:25,852 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:12:26,182 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:12:26,182 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:12:26,182 - backend.app - INFO - Allowed extensions: {'.css', '.html', '.ts', '.config', '.tsx', '.txt', '.md', '.py', '.json', '.jsx', '.yaml', '.yml', '.js'}
+2026-01-31 21:12:26,193 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:12:26,231 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:12:26,239 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:12:55,296 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 21:12:55,343 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:12:55,634 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:12:55,634 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:12:55,634 - backend.app - INFO - Allowed extensions: {'.py', '.jsx', '.config', '.json', '.ts', '.yaml', '.tsx', '.md', '.txt', '.yml', '.js', '.html', '.css'}
+2026-01-31 21:12:55,645 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:12:55,681 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:12:55,687 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:13:01,935 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 21:13:01,976 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:13:02,193 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:13:02,193 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:13:02,193 - backend.app - INFO - Allowed extensions: {'.tsx', '.json', '.txt', '.css', '.yml', '.jsx', '.py', '.ts', '.config', '.js', '.html', '.yaml', '.md'}
+2026-01-31 21:13:02,205 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:13:02,236 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:13:02,242 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:13:21,838 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 21:13:21,882 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:13:22,115 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:13:22,115 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:13:22,115 - backend.app - INFO - Allowed extensions: {'.yml', '.py', '.tsx', '.js', '.html', '.json', '.md', '.config', '.ts', '.jsx', '.yaml', '.txt', '.css'}
+2026-01-31 21:13:22,127 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:13:22,162 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:13:22,168 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:13:34,503 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/app.py', reloading
+2026-01-31 21:13:34,548 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:13:34,769 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:13:34,769 - backend.app - INFO - Target directory: /Users/eshitashukla/ecommerce-website
+2026-01-31 21:13:34,769 - backend.app - INFO - Allowed extensions: {'.json', '.py', '.jsx', '.md', '.txt', '.js', '.config', '.tsx', '.html', '.yaml', '.ts', '.yml', '.css'}
+2026-01-31 21:13:34,780 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:13:34,810 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:13:34,816 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:17:43,290 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:17:43] "GET /api/status HTTP/1.1" 200 -
+2026-01-31 21:17:43,291 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:17:43] "GET /api/files?directory=. HTTP/1.1" 200 -
+2026-01-31 21:17:53,293 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:17:53] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:17:53,297 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:17:53] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:18:29,183 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:18:29,183 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:18:29,183 - backend.app - INFO - Allowed extensions: {'.jsx', '.json', '.html', '.yaml', '.ts', '.txt', '.css', '.md', '.yml', '.config', '.tsx', '.js', '.py'}
+2026-01-31 21:18:29,197 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:18:29,239 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.30:8080
+2026-01-31 21:18:29,239 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-31 21:18:29,240 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:18:29,435 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:18:29,435 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:18:29,435 - backend.app - INFO - Allowed extensions: {'.yaml', '.js', '.py', '.tsx', '.yml', '.md', '.ts', '.css', '.config', '.txt', '.jsx', '.html', '.json'}
+2026-01-31 21:18:29,446 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:18:29,478 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:18:29,485 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:18:43,922 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:18:43] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:18:43,930 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:18:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-31 21:18:43,931 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:18:43] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:18:43,944 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:18:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-31 21:19:08,501 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:19:08] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2026-01-31 21:19:17,148 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:19:17] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2026-01-31 21:20:30,102 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:20:30] "POST /api/auth/login HTTP/1.1" 200 -
+2026-01-31 21:20:30,143 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:20:30] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:20:30,148 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:20:30] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:29:49,694 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:29:49] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:29:49,699 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:29:49] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:29:49,705 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:29:49] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:29:49,711 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:29:49] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:31:38,292 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:31:38] "GET /api/projects HTTP/1.1" 200 -
+2026-01-31 21:31:38,299 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:31:38] "GET /api/projects HTTP/1.1" 200 -
+2026-01-31 21:31:46,288 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:31:46] "GET /api/projects HTTP/1.1" 200 -
+2026-01-31 21:31:58,839 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:31:58,883 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:31:59,167 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:31:59,167 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:31:59,167 - backend.app - INFO - Allowed extensions: {'.json', '.md', '.config', '.txt', '.css', '.py', '.tsx', '.yaml', '.jsx', '.html', '.js', '.ts', '.yml'}
+2026-01-31 21:31:59,179 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:31:59,213 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:31:59,220 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:32:03,375 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/app.py', reloading
+2026-01-31 21:32:03,415 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:32:03,628 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:32:03,628 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:32:03,628 - backend.app - INFO - Allowed extensions: {'.py', '.yaml', '.md', '.js', '.tsx', '.html', '.config', '.yml', '.jsx', '.ts', '.json', '.txt', '.css'}
+2026-01-31 21:32:03,640 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:32:03,673 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:32:03,678 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:32:22,142 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:32:22,187 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:32:22,414 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:32:22,414 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:32:22,414 - backend.app - INFO - Allowed extensions: {'.html', '.config', '.jsx', '.txt', '.md', '.ts', '.js', '.css', '.tsx', '.json', '.py', '.yml', '.yaml'}
+2026-01-31 21:32:22,427 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:32:22,463 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:32:22,469 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:33:00,436 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:33:00,475 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:33:00,698 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:33:00,698 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:33:00,698 - backend.app - INFO - Allowed extensions: {'.tsx', '.md', '.yaml', '.js', '.txt', '.css', '.ts', '.json', '.config', '.jsx', '.py', '.yml', '.html'}
+2026-01-31 21:33:00,709 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:33:00,742 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:33:00,748 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:33:05,889 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:33:05,933 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:33:06,144 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:33:06,145 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:33:06,145 - backend.app - INFO - Allowed extensions: {'.ts', '.yaml', '.json', '.md', '.yml', '.html', '.js', '.py', '.jsx', '.tsx', '.config', '.css', '.txt'}
+2026-01-31 21:33:06,156 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:33:06,186 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:33:06,191 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:33:12,370 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:33:12,410 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:33:12,625 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:33:12,625 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:33:12,625 - backend.app - INFO - Allowed extensions: {'.html', '.config', '.css', '.py', '.jsx', '.json', '.ts', '.txt', '.tsx', '.js', '.md', '.yml', '.yaml'}
+2026-01-31 21:33:12,636 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:33:12,667 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:33:12,672 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:35:14,635 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 21:35:14,677 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:45:22,946 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:45:22,946 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:45:22,946 - backend.app - INFO - Allowed extensions: {'.ts', '.html', '.json', '.config', '.md', '.py', '.yml', '.js', '.css', '.yaml', '.tsx', '.jsx', '.txt'}
+2026-01-31 21:45:22,965 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:45:23,000 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.30:8080
+2026-01-31 21:45:23,000 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-01-31 21:45:23,000 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:45:23,229 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:45:23,229 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:45:23,229 - backend.app - INFO - Allowed extensions: {'.py', '.html', '.ts', '.yml', '.css', '.yaml', '.txt', '.md', '.jsx', '.js', '.tsx', '.json', '.config'}
+2026-01-31 21:45:23,241 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:45:23,264 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:45:23,270 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:45:28,712 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:45:28] "[35m[1mGET /api/target/ai-context HTTP/1.1[0m" 500 -
+2026-01-31 21:45:48,953 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/agent.py', reloading
+2026-01-31 21:45:49,000 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:45:49,251 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:45:49,251 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:45:49,251 - backend.app - INFO - Allowed extensions: {'.yaml', '.js', '.txt', '.html', '.py', '.config', '.md', '.jsx', '.tsx', '.json', '.css', '.ts', '.yml'}
+2026-01-31 21:45:49,262 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:45:49,286 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:45:49,292 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:46:00,900 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:46:00] "GET /api/target/ai-context HTTP/1.1" 200 -
+2026-01-31 21:46:38,690 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:46:38,741 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:46:39,121 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:46:39,121 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:46:39,121 - backend.app - INFO - Allowed extensions: {'.json', '.md', '.yaml', '.css', '.yml', '.js', '.txt', '.py', '.html', '.ts', '.config', '.tsx', '.jsx'}
+2026-01-31 21:46:39,135 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:46:39,162 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:46:39,168 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:46:50,472 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/database.py', reloading
+2026-01-31 21:46:50,516 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:46:50,745 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:46:50,745 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:46:50,745 - backend.app - INFO - Allowed extensions: {'.ts', '.tsx', '.json', '.html', '.config', '.js', '.css', '.py', '.txt', '.yaml', '.md', '.yml', '.jsx'}
+2026-01-31 21:46:50,757 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:46:50,780 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:46:50,785 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:47:07,216 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/agent.py', reloading
+2026-01-31 21:47:07,264 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:47:07,511 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:47:07,511 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:47:07,511 - backend.app - INFO - Allowed extensions: {'.css', '.config', '.md', '.html', '.txt', '.yml', '.py', '.yaml', '.js', '.json', '.jsx', '.ts', '.tsx'}
+2026-01-31 21:47:07,523 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:47:07,546 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:47:07,552 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:47:23,946 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 21:47:23,995 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 21:47:24,391 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 21:47:24,391 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 21:47:24,391 - backend.app - INFO - Allowed extensions: {'.yml', '.tsx', '.txt', '.json', '.config', '.md', '.html', '.jsx', '.ts', '.js', '.yaml', '.py', '.css'}
+2026-01-31 21:47:24,407 - backend.agent - INFO - UIAgent initialized
+2026-01-31 21:47:24,435 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 21:47:24,440 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 21:47:38,291 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:47:38] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:47:38,292 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:47:38] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:47:38,296 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:47:38] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:51:48,179 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:51:48] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-01-31 21:51:55,512 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:51:55] "POST /api/auth/login HTTP/1.1" 200 -
+2026-01-31 21:51:55,537 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:51:55] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:51:55,545 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:51:55] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:51:59,667 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:51:59] "GET /api/projects HTTP/1.1" 200 -
+2026-01-31 21:51:59,675 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:51:59] "GET /api/projects HTTP/1.1" 200 -
+2026-01-31 21:53:16,894 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:16] "POST /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:53:16,900 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:16] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:53:20,374 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:20] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:53:20,374 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:20] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:53:20,380 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:20] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:53:20,380 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:20] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:53:34,487 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:34] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:53:34,489 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:34] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:53:34,499 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:34] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:53:34,499 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:34] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:53:34,504 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:34] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:53:34,504 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:53:34] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:54:41,722 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:54:41] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:54:41,724 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:54:41] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 21:54:41,731 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:54:41] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:54:41,731 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:54:41] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:54:41,735 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:54:41] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:54:41,735 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:54:41] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:54:52,077 - backend.agent - INFO - Step 0: Fetching target project API blueprint...
+2026-01-31 21:54:52,083 - backend.agent - INFO - Step 1: Identifying relevant files for task: Analyze and resolve this ticket:
+
+Project: Target ...
+2026-01-31 21:54:59,584 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 21:54:59,592 - backend.agent - INFO - Claude identified 8 relevant files for task
+2026-01-31 21:54:59,592 - backend.agent - INFO - Step 2: Reading 8 relevant files...
+2026-01-31 21:54:59,593 - backend.agent - INFO - File read successfully: app/routes/cart.py
+2026-01-31 21:54:59,593 - backend.agent - INFO - File read successfully: app/models/cart.py
+2026-01-31 21:54:59,594 - backend.agent - INFO - File read successfully: frontend/src/pages/Cart.jsx
+2026-01-31 21:54:59,594 - backend.agent - INFO - File read successfully: frontend/src/pages/Checkout.jsx
+2026-01-31 21:54:59,595 - backend.agent - INFO - File read successfully: frontend/src/services/cartService.js
+2026-01-31 21:54:59,595 - backend.agent - INFO - File read successfully: frontend/src/contexts/CartContext.jsx
+2026-01-31 21:54:59,596 - backend.agent - INFO - File read successfully: tests/test_cart.py
+2026-01-31 21:54:59,596 - backend.agent - INFO - File read successfully: BLUEPRINT.md
+2026-01-31 21:54:59,596 - backend.agent - INFO - Step 3: Sending 8 files (53644 chars) to Claude...
+2026-01-31 21:55:16,009 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:16] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:55:16,015 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:16] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 21:55:17,246 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:17] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:55:17,246 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:17] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:55:17,251 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:17] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 21:55:17,251 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:17] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:55:19,106 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 21:55:19,117 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:19] "POST /api/tickets/1/ai-resolve HTTP/1.1" 200 -
+2026-01-31 21:55:19,137 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:19] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:55:19,375 - backend.agent - INFO - Step 0: Fetching target project API blueprint...
+2026-01-31 21:55:19,384 - backend.agent - INFO - Step 1: Identifying relevant files for task: Analyze and resolve this ticket:
+
+Project: Target ...
+2026-01-31 21:55:26,434 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 21:55:26,437 - backend.agent - INFO - Claude identified 8 relevant files for task
+2026-01-31 21:55:26,438 - backend.agent - INFO - Step 2: Reading 8 relevant files...
+2026-01-31 21:55:26,440 - backend.agent - INFO - File read successfully: app/routes/cart.py
+2026-01-31 21:55:26,441 - backend.agent - INFO - File read successfully: app/models/cart.py
+2026-01-31 21:55:26,442 - backend.agent - INFO - File read successfully: frontend/src/pages/Cart.jsx
+2026-01-31 21:55:26,443 - backend.agent - INFO - File read successfully: frontend/src/pages/Checkout.jsx
+2026-01-31 21:55:26,444 - backend.agent - INFO - File read successfully: frontend/src/services/cartService.js
+2026-01-31 21:55:26,444 - backend.agent - INFO - File read successfully: frontend/src/contexts/CartContext.jsx
+2026-01-31 21:55:26,445 - backend.agent - INFO - File read successfully: tests/test_cart.py
+2026-01-31 21:55:26,445 - backend.agent - INFO - File read successfully: BLUEPRINT.md
+2026-01-31 21:55:26,445 - backend.agent - INFO - Step 3: Sending 8 files (53644 chars) to Claude...
+2026-01-31 21:55:57,405 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 21:55:57,413 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:57] "POST /api/tickets/1/ai-resolve HTTP/1.1" 200 -
+2026-01-31 21:55:57,430 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:55:57] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 21:57:25,990 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:57:25] "POST /api/tickets/1/ai-action HTTP/1.1" 200 -
+2026-01-31 21:57:25,999 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 21:57:25] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 22:01:33,568 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 22:01:33,627 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 22:01:34,025 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 22:01:34,025 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 22:01:34,025 - backend.app - INFO - Allowed extensions: {'.json', '.md', '.js', '.tsx', '.css', '.ts', '.txt', '.yml', '.jsx', '.yaml', '.config', '.py', '.html'}
+2026-01-31 22:01:34,038 - backend.agent - INFO - UIAgent initialized
+2026-01-31 22:01:34,068 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 22:01:34,074 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 22:01:57,583 - werkzeug - INFO -  * Detected change in '/Users/eshitashukla/AgenticAi_Claude/demo/backend/routes.py', reloading
+2026-01-31 22:01:57,628 - werkzeug - INFO -  * Restarting with stat
+2026-01-31 22:01:57,963 - backend.app - INFO - Starting AI Agent Backend
+2026-01-31 22:01:57,963 - backend.app - INFO - Target directory: /Users/eshitashukla/amazon-ecommerce
+2026-01-31 22:01:57,963 - backend.app - INFO - Allowed extensions: {'.js', '.md', '.json', '.html', '.txt', '.yaml', '.yml', '.tsx', '.css', '.ts', '.jsx', '.config', '.py'}
+2026-01-31 22:01:57,976 - backend.agent - INFO - UIAgent initialized
+2026-01-31 22:01:58,008 - werkzeug - WARNING -  * Debugger is active!
+2026-01-31 22:01:58,014 - werkzeug - INFO -  * Debugger PIN: 420-402-529
+2026-01-31 22:02:45,450 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:02:45] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:02:45,457 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:02:45] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:02:50,309 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:02:50] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 22:02:50,310 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:02:50] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 22:02:50,328 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:02:50] "GET /api/tickets/1/proposed-changes HTTP/1.1" 200 -
+2026-01-31 22:02:50,329 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:02:50] "GET /api/tickets/1 HTTP/1.1" 200 -
+2026-01-31 22:03:29,102 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:29] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:03:29,106 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:29] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:03:30,490 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:30] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 22:03:30,493 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:30] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 22:03:30,497 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:30] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:03:30,502 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:30] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:03:39,403 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:39] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 22:03:39,406 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:39] "GET /api/auth/me HTTP/1.1" 200 -
+2026-01-31 22:03:39,411 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:39] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:03:39,414 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:39] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:03:53,728 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:53] "GET /api/projects HTTP/1.1" 200 -
+2026-01-31 22:03:53,736 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:03:53] "GET /api/projects HTTP/1.1" 200 -
+2026-01-31 22:04:53,328 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:04:53] "POST /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:04:53,345 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:04:53] "GET /api/tickets HTTP/1.1" 200 -
+2026-01-31 22:04:55,417 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:04:55] "GET /api/tickets/2 HTTP/1.1" 200 -
+2026-01-31 22:04:55,417 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:04:55] "GET /api/tickets/2/proposed-changes HTTP/1.1" 200 -
+2026-01-31 22:04:55,423 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:04:55] "GET /api/tickets/2 HTTP/1.1" 200 -
+2026-01-31 22:04:55,423 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:04:55] "GET /api/tickets/2/proposed-changes HTTP/1.1" 200 -
+2026-01-31 22:05:05,064 - backend.agent - INFO - Step 0: Fetching target project API blueprint...
+2026-01-31 22:05:05,071 - backend.agent - INFO - Step 1: Identifying relevant files for task: Analyze and resolve this ticket:
+
+Project: Target ...
+2026-01-31 22:05:12,681 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 22:05:12,686 - backend.agent - INFO - Claude identified 6 relevant files for task
+2026-01-31 22:05:12,686 - backend.agent - INFO - Step 2: Reading 6 relevant files...
+2026-01-31 22:05:12,687 - backend.agent - INFO - File read successfully: app/models/cart.py
+2026-01-31 22:05:12,687 - backend.agent - INFO - File read successfully: app/routes/cart.py
+2026-01-31 22:05:12,687 - backend.agent - INFO - File read successfully: frontend/src/pages/Cart.jsx
+2026-01-31 22:05:12,688 - backend.agent - INFO - File read successfully: frontend/src/pages/Checkout.jsx
+2026-01-31 22:05:12,688 - backend.agent - INFO - File read successfully: frontend/src/services/cartService.js
+2026-01-31 22:05:12,688 - backend.agent - INFO - File read successfully: tests/test_cart.py
+2026-01-31 22:05:12,688 - backend.agent - INFO - Step 3: Sending 6 files (40540 chars) to Claude...
+2026-01-31 22:05:32,074 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 22:05:32,079 - backend.agent - INFO - File read successfully: app/models/cart.py
+2026-01-31 22:05:32,079 - backend.agent - INFO - Asking Claude to propose changes for: app/models/cart.py
+2026-01-31 22:05:38,936 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 22:05:38,938 - backend.agent - INFO - Created proposed change #1 for app/models/cart.py
+2026-01-31 22:05:38,939 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:05:38] "POST /api/tickets/2/ai-resolve HTTP/1.1" 200 -
+2026-01-31 22:07:28,315 - backend.agent - INFO - Step 0: Fetching target project API blueprint...
+2026-01-31 22:07:28,330 - backend.agent - INFO - Step 1: Identifying relevant files for task: Analyze and resolve this ticket:
+
+Project: Target ...
+2026-01-31 22:07:40,302 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 22:07:40,309 - backend.agent - INFO - Claude identified 7 relevant files for task
+2026-01-31 22:07:40,309 - backend.agent - INFO - Step 2: Reading 7 relevant files...
+2026-01-31 22:07:40,311 - backend.agent - INFO - File read successfully: app/models/cart.py
+2026-01-31 22:07:40,311 - backend.agent - INFO - File read successfully: app/routes/cart.py
+2026-01-31 22:07:40,312 - backend.agent - INFO - File read successfully: frontend/src/pages/Cart.jsx
+2026-01-31 22:07:40,312 - backend.agent - INFO - File read successfully: frontend/src/pages/Checkout.jsx
+2026-01-31 22:07:40,313 - backend.agent - INFO - File read successfully: frontend/src/services/cartService.js
+2026-01-31 22:07:40,313 - backend.agent - INFO - File read successfully: frontend/src/contexts/CartContext.jsx
+2026-01-31 22:07:40,314 - backend.agent - INFO - File read successfully: tests/test_cart.py
+2026-01-31 22:07:40,314 - backend.agent - INFO - Step 3: Sending 7 files (41697 chars) to Claude...
+2026-01-31 22:07:56,464 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 22:07:56,471 - backend.agent - INFO - File read successfully: app/models/cart.py
+2026-01-31 22:07:56,472 - backend.agent - INFO - Asking Claude to propose changes for: app/models/cart.py
+2026-01-31 22:08:03,531 - httpx - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-01-31 22:08:03,539 - backend.agent - INFO - Created proposed change #2 for app/models/cart.py
+2026-01-31 22:08:03,540 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:08:03] "POST /api/tickets/2/ai-resolve HTTP/1.1" 200 -
+2026-01-31 22:08:03,618 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:08:03] "GET /api/tickets/2 HTTP/1.1" 200 -
+2026-01-31 22:08:21,866 - backend.agent - INFO - Applied proposed change #2 to app/models/cart.py
+2026-01-31 22:08:21,869 - backend.agent - INFO - Applied proposed change #1 to app/models/cart.py
+2026-01-31 22:08:21,870 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:08:21] "POST /api/tickets/2/ai-action HTTP/1.1" 200 -
+2026-01-31 22:08:21,888 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2026 22:08:21] "GET /api/tickets/2 HTTP/1.1" 200 -

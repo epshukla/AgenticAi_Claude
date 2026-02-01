@@ -1,0 +1,161 @@
+.file-browser-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+}
+
+.file-browser-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.file-browser-content h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.file-browser-layout {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 24px;
+  height: calc(100vh - 200px);
+}
+
+.file-list-panel {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-list-panel h2 {
+  font-size: 16px;
+  color: #333;
+  margin: 0 0 16px 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.file-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.file-item:hover {
+  background: #f5f7fa;
+}
+
+.file-item.selected {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.file-name {
+  font-size: 14px;
+  word-break: break-all;
+}
+
+.file-size {
+  font-size: 12px;
+  color: #888;
+  white-space: nowrap;
+  margin-left: 8px;
+}
+
+.file-item.selected .file-size {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.file-content-panel {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.file-header {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.file-header h2 {
+  font-size: 16px;
+  color: #333;
+  margin: 0 0 4px 0;
+}
+
+.file-path {
+  font-size: 12px;
+  color: #888;
+  font-family: monospace;
+}
+
+.file-content {
+  flex: 1;
+  margin: 0;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  overflow: auto;
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre;
+  color: #333;
+}
+
+.empty-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #888;
+}
+
+.loading,
+.error,
+.empty {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.error {
+  color: #dc2626;
+}
+
+@media (max-width: 900px) {
+  .file-browser-layout {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .file-list-panel {
+    max-height: 300px;
+  }
+
+  .file-content-panel {
+    min-height: 400px;
+  }
+}

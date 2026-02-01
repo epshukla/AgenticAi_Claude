@@ -1,7 +1,0 @@
-{
-    "app_name": "DemoApp",
-    "version": "1.0.0",
-    "debug_mode": true,
-    "api_key": "sk-1234567890abcdef1234567890abcdef",
-    "timeout": 5000
-}

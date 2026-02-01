@@ -1,0 +1,102 @@
+# AI Agent Dashboard
+
+A full-stack application featuring an AI agent powered by Claude, with a Flask backend and React frontend.
+
+## Prerequisites
+
+- Python 3.12+
+- Node.js 18+
+- npm
+
+## Setup
+
+### 1. Clone the repository
+
+```bash
+git clone <repository-url>
+cd AgenticAi_Claude
+```
+
+### 2. Set up environment variables
+
+Create a `.env` file in the root directory:
+
+```bash
+CLAUDE_API_KEY=your_anthropic_api_key_here
+```
+
+### 3. Backend Setup
+
+Create and activate a Python virtual environment:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On macOS/Linux
+# or
+venv\Scripts\activate     # On Windows
+```
+
+Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Frontend Setup
+
+Navigate to the frontend directory and install dependencies:
+
+```bash
+cd frontend
+npm install
+cd ..
+```
+
+## Running the Application
+
+**Two terminals are required** to run both the backend and frontend servers.
+
+### Terminal 1: Start the Backend
+
+```bash
+source venv/bin/activate
+python run.py
+```
+
+The backend will be available at: http://localhost:8080
+
+### Terminal 2: Start the Frontend
+
+```bash
+cd frontend
+npm start
+```
+
+The frontend will be available at: http://localhost:4000
+
+## Quick Start (Alternative)
+
+You can also use the provided start script to run the backend:
+
+```bash
+./start.sh
+```
+
+This will automatically:
+- Create a virtual environment if needed
+- Install dependencies
+- Start the backend server
+
+You'll still need to start the frontend separately in another terminal.
+
+## Project Structure
+
+```
+.
+├── backend/          # Flask backend API
+├── frontend/         # React frontend application
+├── requirements.txt  # Python dependencies
+├── run.py           # Backend entry point
+├── start.sh         # Quick start script
+└── .env             # Environment variables (create this)
+```
